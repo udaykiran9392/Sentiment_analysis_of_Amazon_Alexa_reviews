@@ -8,31 +8,30 @@ To analyze and classify user sentiments from Amazon Alexa product reviews using 
 In today’s digital age, understanding customer opinions is vital for businesses. This project leverages supervised machine learning to perform sentiment classification on Alexa product reviews. By preprocessing review texts and applying classification models, the system determines user satisfaction levels, helping improve product development and marketing strategies.
 
 ## 🧠 Steps Followed
-Data Collection
+**Data Collection**
 
 Used Amazon Alexa product reviews dataset (publicly available).
 
-Data Cleaning & Preprocessing
-
+**Data Cleaning & Preprocessing**
 Removed punctuation, stopwords, and performed tokenization and stemming.
 
-Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
 
 Analyzed review distribution, word frequency, sentiment distribution.
 
-Feature Engineering
+**Feature Engineering**
 
 Applied TF-IDF vectorization for transforming text data into numerical format.
 
-Model Training
+**Model Training**
 
 Trained and evaluated models: Logistic Regression, Naive Bayes, and Support Vector Machine (SVM).
 
-Model Evaluation
+**Model Evaluation**
 
 Used accuracy, precision, recall, F1-score, and confusion matrix to measure model performance.
 
-Visualization & Insights
+**Visualization & Insights**
 
 Visualized most frequent positive and negative terms, sentiment ratio.
 
@@ -49,11 +48,17 @@ Visualized most frequent positive and negative terms, sentiment ratio.
 | 🛠️ Environment       | Jupyter Notebook / Google Colab                        |
 
 ## 💡 Key Features & Use Cases
+
 ✅ Classifies customer reviews into positive or negative sentiments
+
 ✅ Cleans and processes natural language text using NLP techniques
+
 ✅ Extracts key sentiment-driving words with word clouds and frequency plots
+
 ✅ Identifies trends in product feedback, enhancing marketing and UX decisions
+
 ✅ Offers potential integration into chatbots, product review dashboards, or customer support tools
+
 
 📈 Business Insights & Growth Prediction
 Based on sentiment trends, businesses can anticipate a 12–18% increase in user satisfaction by addressing common negative feedback themes (e.g., connectivity, voice recognition). Insights from this analysis empower proactive product refinement, increasing brand loyalty.
